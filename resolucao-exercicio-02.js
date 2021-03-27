@@ -2,8 +2,7 @@
 // e retorna essa variável;
 
 function zoologico (){
-    let animal = "Girafa";
+    const animal = "Girafa";
     return animal
 }
 console.log(zoologico());
-

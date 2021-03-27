@@ -1,11 +1,10 @@
 // 6. Crie uma função que retorna um preço após aplicado um desconto de 10%
 // ex: precoComDesconto(10) => 9
 
-function aplicarDescontoNoPreçoFinal (preço) {
-    let percentual = 10;
-        let obterPorcentagem = (percentual / 100) * preço;
-            let valorFinal = preço - obterPorcentagem ;
-                return valorFinal;
+function aplicarDescontoDezPorCento (preco) {
+    const percentual = 10;
+    const valorDesconto = percentual / 100 * preco;
+    const valorFinal = preco - valorDesconto;
+    return valorFinal;
 }
-console.log("O valor com desconto de 10% será de:"+" " + "$"+ aplicarDescontoNoPreçoFinal (210) + ".");
-
+console.log("O valor com desconto de 10% será de:" + " " + "$" + aplicarDescontoDezPorCento(210) + ".");
