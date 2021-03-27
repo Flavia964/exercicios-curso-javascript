@@ -15,7 +15,7 @@ function classificaFaixaEtaria (idade) {
         return "Idoso!";
     } else if (idade >=40) {
         return "Meia- idade!";     
-    } else if (idade <=39 ) {
+    } else if (idade <=39) {
         return "Jovem!";
 }
 }
