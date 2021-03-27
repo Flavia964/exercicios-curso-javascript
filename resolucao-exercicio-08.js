@@ -4,7 +4,7 @@
 // idosos são os que posssuem mais de 60 anos;
 // ex: classificaIdade(60) => "meia-idade"
 
-function categorizaAcordoComIdade (idade) {
+function classificaFaixaEtaria (idade) {
     if(idade <=39){
         return "Jovem!";
     } else if (idade > 60) {
@@ -13,4 +13,4 @@ function categorizaAcordoComIdade (idade) {
         return "Meia- idade!";
 }
 }
-console.log(categorizaAcordoComIdade(60));
+console.log(classificaFaixaEtaria(60));
