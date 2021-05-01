@@ -1,11 +1,15 @@
 // 3. Criar uma função que imprime os pares de 1 a 50. Use o while
 // Nota: Não usar o if nem o else
 
-function imprimeNumerosPares(list) {
-    let i = 0
-    while (i % 2 === 0){
-        console.log(list[i]);
-        i++;
-    }
+ imprime = (numero) => console.log(numero)
+
+function imprimeNumerosParesDeUmCinquenta(){
+  let i = 1;
+  i++
+  while(i <=50 ){
+    imprime(i);
+    i+=2
+  }
 }
-imprimeNumerosPares([1,2,3,4,5,6]);
+
+imprimeNumerosParesDeUmCinquenta();
