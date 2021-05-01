@@ -2,9 +2,8 @@
 // onde n é um inteiro positivo;
 
 function imprimeDeTrasParaFrente(n) {
-    for(let i = n.length-1;i>=1;i--){
-        let list = [i];
-        console.log(list);
+    for(let i = n; i>=1 ;i--){
+        console.log(i);
     }
 }
-imprimeDeTrasParaFrente([1,2,3,4,5,6]);
+imprimeDeTrasParaFrente(5);
